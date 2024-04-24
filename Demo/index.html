@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="A Demo">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Demo</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+
+  
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Demo</h2>
+
+       
+
+  
+        
+        
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                 controls
+                 muted
+                 preload
+                 playsinline
+                 width="75%">
+            <source src="./static/videos/0_v_25685519b728afd746dfd1b2fe77c_20240423_23113118.mp4"
+                    type="video/mp4">
+
+          </video>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            Dense caption: <br>A young man{obj_0} wearing a light blue t-shirt 
+              and dark blue shorts stands in a crowd of people on a sidewalk, waiting to cross the street. 
+              To his right, a person{obj_1} in blue jeans and a blue tank top looks up towards the sky or 
+              the roof of a nearby building. Further down the sidewalk, near the crosswalk, a woman{obj_2} 
+              with long brown hair wearing a black shirt and tan skirt walks in the crowd crossing the street.
+               In the middle of the crowd on the street, a person{obj_3} with dark hair wearing a black shirt and 
+               blue shorts holds a blue object and watches a performance or parade. A group of women{obj_4} 
+               walk together on the street; one wears a black shirt and white skirt, another a blue shirt and blue skirt, 
+               a third a blue shirt without shoes, and the last a blue shirt accompanied by a woman in a red, white, 
+               and blue dress. Walking down the crowded sidewalk is a person{obj_5} with reddish hair wearing a 
+               black t-shirt and gray shorts. Further down the sidewalk, a woman{obj_6} with brown hair wearing a 
+               red jacket and brightly colored dress walks and eats while carrying a green reusable grocery bag. 
+               A person{obj_7} wearing all black walks with their head down in the crowd. 
+          </p>
+          <p>
+            Object caption:
+            <br>0 : The person in the image appears to be a young man. He is wearing a light blue t-shirt, dark blue shorts, and flip-flops. He is standing in a crowd of people on a sidewalk, with his hands on his hips. It seems that the people in the photo are waiting to cross the street.
+            <br>1 : A person is wearing blue jeans and a blue tank top with a gray sweatshirt wrapped around their waist. They are standing with a group of people in front of a building with a tree nearby. They are looking up and to the right, possibly watching something in the sky or on the roof of the building. 
+            <br>2 : The person in the photo has long brown hair and is wearing a black shirt, tan skirt, and black flats. They are walking in a crowd of people who are crossing a street. 
+            <br>3 : The person in the photo has dark hair and is wearing a black shirt, blue shorts, and black shoes. The person is holding a blue object and is standing in a crowd of people. It looks like the person may be watching some sort of performance or parade taking place on the street. 
+            <br>4 : The photos show several people walking on a street. The first photo shows a woman with blonde hair wearing a black shirt and a white skirt. The second photo shows a woman with blonde hair wearing a blue shirt and a blue skirt. The third photo shows a woman with blonde hair wearing a blue shirt and no shoes. The fourth photo shows a woman with blonde hair wearing a blue shirt and a woman with brown hair wearing a red, white, and blue dress. 
+            <br>5 : The images provided show a person with reddish hair wearing a black t-shirt and grey shorts walking down a crowded sidewalk. 
+            <br>6 : The person in the photo is a woman with brown hair. She is wearing a red jacket, a brightly colored dress, and sandals. She is carrying a green reusable grocery bag and is walking down the street. She is eating something. 
+            <br>7 : The person is wearing a black shirt and black pants. They are walking with their head down in a crowd of people. 
+          </p>
+        </div>
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                 controls
+                 muted
+                 preload
+                 playsinline
+                 width="75%">
+            <source src="./static/videos/70_Doing_fencing_v_IBB6OkDzGq8_scene_0_0-5790_20240424_10403590.mp4"
+                    type="video/mp4">
+
+          </video>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            Dense caption: <br>Two fencers, both wearing white fencing attire {obj_0} and protective masks, are engaged in a fencing match 
+            on a red and blue piste. The fencer on the left has a white mask and is performing a lunge while holding a fencing sword {obj_1} 
+            in their right hand. Their opponent, on the right, wears a black mask and is holding a fencing sword {obj_3} with a bell guard 
+            in their right hand, in the process of raising it to a guard position. The fencer on the right's socks have the word "FENCE" 
+            written on them in black letters {obj_2}.
+          </p>
+          <p>
+            Object caption:
+            <br>0 : The person is wearing white fencing attire with a protective mask, white jacket, white pants, long white socks, and brown shoes. The person is also holding a fencing sword in their right hand. They are performing a fencing lunge. 
+            <br>1 :The sword is a fencing sword, it is long and thin with a small handguard. The person in the picture is holding the sword out in front of them, they are practicing fencing. 
+            <br>2 :The person is wearing a white fencing uniform and a black mask. They are also wearing white socks with the word "FENCE" written on them in black letters. The person is holding a fencing sword and is in the middle of a fencing match. 
+            <br>3 :The sword is a long, thin blade with a bell guard. The fencer is holding it in their right hand, with the tip pointed towards the ground. They are in the process of bringing the sword up to a guard position. 
+ 
+          </p>
+        </div>
+
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                 controls
+                 muted
+                 preload
+                 playsinline
+                 width="75%">
+            <source src="./static/videos/150_Rope_skipping_v_juxgiB4KoEA_scene_0_0-1024_20240424_10403615.mp4"
+                    type="video/mp4">
+
+          </video>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            Dense caption: <br> A woman{obj_0} wearing a short green ruffled dress and black boots is spinning a lasso in the street.  
+            An audience is watching the woman{obj_0} spin the lasso. A person{obj_1} wearing a maroon dress with red, black, and white 
+            feathers is jumping rope in front of and to the left of the woman{obj_0}. To the left of the person jumping rope{obj_1} 
+            are several people in costumes. One of these people is wearing a long-sleeved multicolored shirt and a pink skirt and 
+            pulling a wagon {obj_2}. In the background of the image, there are several people both sitting and standing on the steps 
+            of a building. The building has a sign that says 'Artspring Hall'. To the right of the building is a street with cars 
+            parked on either side. It is difficult to tell what is happening in the background of the image {obj_3} because it is blurred.
+          </p>
+          <p>
+            Object caption:
+            <br>0 : The person is a woman wearing a short green ruffled dress and black boots. She is spinning a lasso in a street with an audience watching. 
+            <br>1 : The person is wearing a maroon dress with red, black, and white feathers. She is jumping rope. 
+            <br>2 : The first image shows a person pulling a wagon. The person is wearing a long-sleeved multicolored shirt and a pink skirt. The second image shows a person with long black hair and a green shirt. The person is wearing sunglasses, jean shorts, and black boots. The third image is of the same person as the second image. The person is walking on a street and carrying a purse. The fourth image shows a person walking with a wagon. The person is wearing a yellow jacket and a pink skirt. 
+            <br>3 : It is difficult to tell from these blurred images. 
+          </p>
+        </div>
+
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                 controls
+                 muted
+                 preload
+                 playsinline
+                 width="75%">
+            <source src="./static/videos/180_v_8681f64baa7794ce3aafe2fa485a9c_20240424_10403640.mp4"
+                    type="video/mp4">
+
+          </video>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            Dense caption: <br>A person{obj_2} in a dark blue shirt is standing on a wooden dock next to a partially frozen lake. 
+            They are holding a blue and white handheld infrared thermometer{obj_1}, which they are using to measure the temperature 
+            of the water and the dock. A multicolored towel{obj_0} is lying on the dock next to the person.  The person jumps into 
+            the lake and swims around for a bit. They then get out of the lake and dry off with the towel.
+          </p>
+          <p>
+            Object caption:
+            <br>0 : The towel is multicolored and is lying on a wooden dock. It is being used to dry off a person who has just gone swimming. 
+            <br>1 : The thermometer is a blue and white handheld infrared thermometer. The thermometer is being used to measure the temperature of various objects in the environment, including the water, a wooden dock, and a person. 
+            <br>2 : The person is fair-skinned and wearing a dark blue shirt. The person is holding a thermometer gun and is pointing it at the water and different surfaces. 
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    
+
+  </div>
+</section>
+</body>
+</html>
